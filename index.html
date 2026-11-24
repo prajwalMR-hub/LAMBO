@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini Bengaluru | Engineering Extraordinary</title>
+    <meta name="description"
+        content="Lamborghini Bengaluru Dealership - Explore the finest luxury high-performance automotive machines including Aventador, Huracán, Urus, Revuelto, and Temerario.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS - Animate On Scroll Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">LAMBORGHINI</div>
+            <div class="preloader-bar">
+                <div class="preloader-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">LAMBORGHINI</span>
+                <span class="logo-subtext">BENGALURU</span>
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#3d-experience">3D Experience</a>
+                <a href="#models">Models</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#video-showcase">Videos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary nav-cta">Book Test Drive</a>
+            <div class="mobile-menu-icon" id="mobile-menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================
+         HERO SECTION — Fullscreen Video Background
+         ============================================================ -->
+    <section class="hero" id="hero">
+        <video autoplay loop muted playsinline class="hero-video"
+            poster="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1920&q=80">
+            <source src="https://videos.pexels.com/video-files/3752531/3752531-uhd_3840_2160_24fps.mp4"
+                type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <!-- Floating particles -->
+        <div class="hero-particles" id="hero-particles"></div>
+
+        <div class="container hero-content">
+            <div class="hero-badge" data-aos="fade-down" data-aos-delay="200">SINCE 1963</div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="400">
+                UNLEASH<br><span class="text-accent">THE BEAST</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
+                Engineering Extraordinary. Experience the pinnacle of Italian automotive excellence in Bengaluru.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
+                <a href="#models" class="btn btn-primary btn-glow">Explore Models</a>
+                <a href="#video-showcase" class="btn btn-secondary btn-play">
+                    <i class="fas fa-play"></i> Watch Film
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-bottom-bar">
+            <div class="hero-stat">
+                <span class="hero-stat-num">1015</span>
+                <span class="hero-stat-label">MAX HP</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-num">2.5s</span>
+                <span class="hero-stat-label">0-100 KM/H</span>
+            </div>
+            <div class="hero-stat">
+                <span class="hero-stat-num">350</span>
+                <span class="hero-stat-label">TOP SPEED</span>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about"><span class="scroll-text">SCROLL</span>
+                    <div class="scroll-line"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT SECTION
+         ============================================================ -->
+    <section class="about section-padding" id="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <div class="section-tag" data-aos="fade-right">OUR HERITAGE</div>
+                <h2 class="section-title" data-aos="fade-right" data-aos-delay="100">
+                    THE LEGEND <span class="text-accent">LIVES ON</span>
+                </h2>
+                <p data-aos="fade-right" data-aos-delay="200">Founded in 1963 by Ferruccio Lamborghini, the brand was
+                    born from a vision to create the perfect grand tourer. Today, Lamborghini stands as an icon of
+                    uncompromising performance, cutting-edge technology, and unparalleled design.</p>
+                <p data-aos="fade-right" data-aos-delay="300">At Lamborghini Bengaluru, we bring this legendary Italian
+                    passion to your doorstep. Our philosophy is simple: to offer a pure, adrenaline-pumping experience
+                    that goes beyond mere transportation.</p>
+                <ul class="about-features" data-aos="fade-right" data-aos-delay="400">
+                    <li><i class="fas fa-check text-accent"></i> Exclusive Showroom Experience</li>
+                    <li><i class="fas fa-check text-accent"></i> Certified Service & Maintenance</li>
+                    <li><i class="fas fa-check text-accent"></i> Ad Personam Customization</li>
+                </ul>
+            </div>
+            <div class="about-image" data-aos="fade-left" data-aos-delay="300">
+                <div class="image-wrapper">
+                    <img src="https://wallpapercave.com/wp/wp5100700.jpg" alt="Lamborghini Heritage" loading="lazy">
+                    <div class="experience-badge">
+                        <span class="years">60+</span>
+                        <span class="text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PARALLAX IMAGE BREAK 1
+         ============================================================ -->
+    <section class="parallax-break" style="background-image: url('https://wallpapercave.com/wp/wp16211304.webp');">
+        <div class="parallax-overlay"></div>
+        <div class="parallax-content" data-aos="zoom-in">
+            <h2>BORN TO BE <span class="text-accent">WILD</span></h2>
+            <p>Every Lamborghini is a masterpiece of Italian engineering and design.</p>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         3D INTERACTIVE EXPERIENCE
+         ============================================================ -->
+    <section class="three-d-section section-padding bg-darker" id="3d-experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">INTERACTIVE</div>
+                <h2 class="section-title">EXPLORE IN <span class="text-accent">3D</span></h2>
+                <p>Rotate, zoom, and inspect every detail of the Lamborghini Aventador SVJ. Drag to rotate the model.
+                </p>
+            </div>
+        </div>
+        <div class="three-d-viewer" data-aos="fade-up" data-aos-delay="200">
+            <div class="sketchfab-embed-wrapper">
+                <iframe title="Lambo V12 Vision Gran Turismo" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                    webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+                    src="https://sketchfab.com/models/d4a47fefd6df44619156723f54849498/embed?autospin=0.2&autostart=1&preload=1&ui_theme=dark&dnt=1"></iframe>
+            </div>
+            <div class="three-d-instructions">
+                <span><i class="fas fa-hand-pointer"></i> Drag to rotate</span>
+                <span><i class="fas fa-search-plus"></i> Scroll to zoom</span>
+                <span><i class="fas fa-arrows-alt"></i> Right-click to pan</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         MODELS SECTION
+         ============================================================ -->
+    <section class="models section-padding" id="models">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">THE LINEUP</div>
+                <h2 class="section-title">OUR <span class="text-accent">MODELS</span></h2>
+                <p>Discover the current lineup of masterpieces. Engineered to thrill.</p>
+            </div>
+
+            <div class="models-grid">
+                <!-- Revuelto -->
+                <div class="model-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="model-img-wrapper">
+                        <img src="https://www.topgear.com/sites/default/files/2024/05/18-Lamborghini-Revuelto-review-UK-2024.jpg?w=1784&h=1004"
+                            alt="Lamborghini Revuelto" loading="lazy">
+                        <div class="model-img-overlay">
+                            <span class="model-tag">NEW</span>
+                        </div>
+                    </div>
+                    <div class="model-info">
+                        <h3>REVUELTO</h3>
+                        <p class="model-tagline">The V12 Hybrid Supercar</p>
+                        <p class="model-price">From ₹8.89 Cr*</p>
+                        <div class="model-stats">
+                            <div class="stat"><i class="fas fa-bolt"></i> 1015 CV</div>
+                            <div class="stat"><i class="fas fa-tachometer-alt"></i> 350 km/h</div>
+                            <div class="stat"><i class="fas fa-stopwatch"></i> 2.5s</div>
+                        </div>
+                        <a href="#contact" class="btn btn-outline">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Aventador SVJ -->
+                <div class="model-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="model-img-wrapper">
+                        <img src="https://www.ilusso.com/imagetag/2280/main/l/Used-2016-Lamborghini-Aventador-LP-750-4-SV-1694632598.jpg"
+                            alt="Lamborghini Aventador" loading="lazy">
+                        <div class="model-img-overlay">
+                            <span class="model-tag legacy">LEGACY</span>
+                        </div>
+                    </div>
+                    <div class="model-info">
+                        <h3>AVENTADOR SVJ</h3>
+                        <p class="model-tagline">The Ultimate V12</p>
+                        <p class="model-price">Legacy Model</p>
+                        <div class="model-stats">
+                            <div class="stat"><i class="fas fa-bolt"></i> 770 CV</div>
+                            <div class="stat"><i class="fas fa-tachometer-alt"></i> 350 km/h</div>
+                            <div class="stat"><i class="fas fa-stopwatch"></i> 2.8s</div>
+                        </div>
+                        <a href="#contact" class="btn btn-outline">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Huracán -->
+                <div class="model-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="model-img-wrapper">
+                        <img src="https://wallpaperaccess.com/full/819645.jpg" alt="Lamborghini Huracán" loading="lazy">
+                        <div class="model-img-overlay"></div>
+                    </div>
+                    <div class="model-info">
+                        <h3>HURACÁN EVO</h3>
+                        <p class="model-tagline">Pure Driving Emotion</p>
+                        <p class="model-price">From ₹3.22 Cr*</p>
+                        <div class="model-stats">
+                            <div class="stat"><i class="fas fa-bolt"></i> 640 CV</div>
+                            <div class="stat"><i class="fas fa-tachometer-alt"></i> 325 km/h</div>
+                            <div class="stat"><i class="fas fa-stopwatch"></i> 2.9s</div>
+                        </div>
+                        <a href="#contact" class="btn btn-outline">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Urus -->
+                <div class="model-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="model-img-wrapper">
+                        <img src="https://images4.alphacoders.com/104/1044937.jpg" alt="Lamborghini Urus"
+                            loading="lazy">
+                        <div class="model-img-overlay"></div>
+                    </div>
+                    <div class="model-info">
+                        <h3>URUS PERFORMANTE</h3>
+                        <p class="model-tagline">The Super SUV</p>
+                        <p class="model-price">From ₹4.22 Cr*</p>
+                        <div class="model-stats">
+                            <div class="stat"><i class="fas fa-bolt"></i> 666 CV</div>
+                            <div class="stat"><i class="fas fa-tachometer-alt"></i> 306 km/h</div>
+                            <div class="stat"><i class="fas fa-stopwatch"></i> 3.3s</div>
+                        </div>
+                        <a href="#contact" class="btn btn-outline">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Temerario -->
+                <div class="model-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="model-img-wrapper">
+                        <img src="https://www.hdcarwallpapers.com/download/lamborghini_temerario_4k-1920x1080.jpg"
+                            alt="Lamborghini Temerario" loading="lazy">
+                        <div class="model-img-overlay">
+                            <span class="model-tag coming">COMING SOON</span>
+                        </div>
+                    </div>
+                    <div class="model-info">
+                        <h3>TEMERARIO</h3>
+                        <p class="model-tagline">The New Era Begins</p>
+                        <p class="model-price">Coming Soon</p>
+                        <div class="model-stats">
+                            <div class="stat"><i class="fas fa-bolt"></i> 920 CV</div>
+                            <div class="stat"><i class="fas fa-tachometer-alt"></i> 340+ km/h</div>
+                            <div class="stat"><i class="fas fa-stopwatch"></i> 2.7s</div>
+                        </div>
+                        <a href="#contact" class="btn btn-outline">Register Interest</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PERFORMANCE STATS
+         ============================================================ -->
+    <section class="performance section-padding" id="performance">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up">
+                    <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                    <div class="stat-number" data-target="1015">0</div>
+                    <div class="stat-label">Horsepower (CV) Up To</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-icon"><i class="fas fa-gauge-high"></i></div>
+                    <div class="stat-number" data-target="350">0</div>
+                    <div class="stat-label">Top Speed (km/h)</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon"><i class="fas fa-stopwatch"></i></div>
+                    <div class="stat-number-decimal" data-target="2.5">0</div>
+                    <div class="stat-label">0-100 km/h (Sec)</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-icon"><i class="fas fa-gear"></i></div>
+                    <div class="stat-number" data-target="12">0</div>
+                    <div class="stat-label">Cylinders (V12 Heritage)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         GALLERY SECTION — Expanded with Lightbox
+         ============================================================ -->
+    <section class="gallery section-padding bg-darker" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">GALLERY</div>
+                <h2 class="section-title">VISUAL <span class="text-accent">SYMPHONY</span></h2>
+                <p>Pure emotion, captured from every angle. Click any image to view fullscreen.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="gallery-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="exterior">Exterior</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="action">Action</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="exterior" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://www.passionwithoutlimits.com/wp-content/uploads/2022/08/PassionWithoutLimits-Lamborghini-Aventador-Urus-07-1536x1024.jpg"
+                        alt="Lamborghini Night City" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Night City</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall" data-category="action" data-aos="fade-up" data-aos-delay="150">
+                    <img src="https://wallpapers.com/images/hd/dark-black-lamborghini-n9f9sok6wdh4oajx.jpg"
+                        alt="Huracán on Track" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Huracán on Track</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="interior" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://www.lambocars.com/wp-content/uploads/2022/07/614392-1600x1067.webp"
+                        alt="Luxury Cockpit" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Luxury Cockpit</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="exterior" data-aos="fade-up" data-aos-delay="250">
+                    <img src="lamborghini_showroom.jpg" alt="Showroom Display" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Showroom Display</span>
+                    </div>
+                </div>
+                <div class="gallery-item wide" data-category="exterior" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://wallpapercave.com/wp/wp4846496.jpg" alt="Speed & Power" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Speed & Power</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="interior" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://wallpapercave.com/wp/wp9071223.jpg" alt="Urus Interior" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Urus Interior</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="exterior" data-aos="fade-up" data-aos-delay="150">
+                    <img src="https://images.unsplash.com/photo-1692224719266-4e5575d5e56d?auto=format&fit=crop&w=800&q=80"
+                        alt="Revuelto Profile" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Revuelto Profile</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall" data-category="interior" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1621256372076-0f81d1e7c527?auto=format&fit=crop&w=800&q=80"
+                        alt="Cockpit Detail" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Cockpit Detail</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="action" data-aos="fade-up" data-aos-delay="250">
+                    <img src="https://images.unsplash.com/photo-1566473965997-3de9c817e938?auto=format&fit=crop&w=800&q=80"
+                        alt="Heritage" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>Heritage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fullscreen Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="Gallery Image" id="lightbox-img">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- ============================================================
+         VIDEO SHOWCASE SECTION
+         ============================================================ -->
+    <section class="video-showcase section-padding" id="video-showcase">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">CINEMATIC</div>
+                <h2 class="section-title">THE <span class="text-accent">EXPERIENCE</span></h2>
+                <p>Feel the raw power and emotion through our curated video collection.</p>
+            </div>
+
+            <div class="video-grid">
+                <div class="video-card main-video" data-aos="fade-up" data-aos-delay="100">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/dkSslseq9Y8?rel=0" title="Lamborghini Revuelto"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>REVUELTO — The New V12 Hybrid</h3>
+                        <p>The first High Performance Electrified Vehicle (HPEV) by Lamborghini.</p>
+                    </div>
+                </div>
+                <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/sPBvYWnlXT4?rel=0" title="Lamborghini Huracán"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>HURACÁN TECNICA</h3>
+                        <p>Next-level performance meets everyday drivability.</p>
+                    </div>
+                </div>
+                <div class="video-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/XoMN-OKNKDY?rel=0" title="Lamborghini Urus"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>URUS PERFORMANTE</h3>
+                        <p>The world's first Super Sport Utility Vehicle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PARALLAX IMAGE BREAK 2
+         ============================================================ -->
+    <section class="parallax-break"
+        style="background-image: url('https://images.unsplash.com/photo-1621256372076-0f81d1e7c527?auto=format&fit=crop&w=1920&q=80');">
+        <div class="parallax-overlay"></div>
+        <div class="parallax-content" data-aos="zoom-in">
+            <h2>DARE TO BE <span class="text-accent">DIFFERENT</span></h2>
+            <p>Customize every detail with Lamborghini Ad Personam.</p>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIALS
+         ============================================================ -->
+    <section class="testimonials section-padding" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag">REVIEWS</div>
+                <h2 class="section-title">CLIENT <span class="text-accent">EXPERIENCES</span></h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="quote">"The delivery experience at Bengaluru was phenomenal. The team made sure my Huracán
+                        was specced exactly to my desires. Truly world-class service."</p>
+                    <div class="client-info">
+                        <div class="client-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <div class="client-name">Rajiv M.</div>
+                            <div class="client-car">Huracán Owner</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="quote">"From the test drive to handing over the keys, the professionalism was unmatched.
+                        The Urus is the perfect daily driver for me."</p>
+                    <div class="client-info">
+                        <div class="client-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <div class="client-name">Ananya S.</div>
+                            <div class="client-car">Urus Owner</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="quote">"Waiting for the Revuelto was tough, but the dealership kept me updated every step
+                        of the way. Unbelievable machine, incredible dealership."</p>
+                    <div class="client-info">
+                        <div class="client-avatar"><i class="fas fa-user"></i></div>
+                        <div>
+                            <div class="client-name">Vikram K.</div>
+                            <div class="client-car">Revuelto Owner</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT & BOOKING
+         ============================================================ -->
+    <section class="contact section-padding bg-darker" id="contact">
+        <div class="container contact-container">
+            <div class="contact-form-wrapper" data-aos="fade-right">
+                <div class="section-tag">GET IN TOUCH</div>
+                <h2 class="section-title">BOOK A <span class="text-accent">TEST DRIVE</span></h2>
+                <p>Ready to experience the thrill? Fill out the form below and our concierge will get in touch.</p>
+                <form id="booking-form" class="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="model-select" required>
+                                <option value="" disabled selected>Select Model</option>
+                                <option value="Revuelto">Revuelto</option>
+                                <option value="Urus">Urus Performante</option>
+                                <option value="Huracan">Huracán Evo</option>
+                                <option value="Temerario">Temerario</option>
+                                <option value="Aventador">Aventador SVJ</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="4" placeholder="Any specific requests or questions?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-glow">
+                        <i class="fas fa-paper-plane"></i> Submit Request
+                    </button>
+                    <div id="form-status" class="form-status"></div>
+                </form>
+            </div>
+            <div class="contact-info-wrapper" data-aos="fade-left">
+                <div class="contact-details">
+                    <h3>VISIT US</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <p>12/A, Vittal Mallya Road, Bengaluru, Karnataka 560001</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <p>+91 80 4123 4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <p>sales@lamborghinibengaluru.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <p>Mon - Sat: 10:00 AM - 7:00 PM</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.973523412572!2d77.59456231482196!3d12.971598690858117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sVittal%20Mallya%20Rd%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1689163214567!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-text">LAMBORGHINI</span>
+                        <span class="logo-subtext">BENGALURU</span>
+                    </a>
+                    <p>Automobili Lamborghini S.p.A. authorized dealer.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#models">Models</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#video-showcase">Videos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to receive updates on new models and exclusive events.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Your Email" required autocomplete="email">
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-arrow-right"></i></button>
+                        <div class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lamborghini Bengaluru. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top"><i class="fas fa-chevron-up"></i></button>
+
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
